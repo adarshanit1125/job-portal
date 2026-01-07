@@ -1,16 +1,89 @@
-# React + Vite
+**🚀 Role-Based Job Portal (React)**::
+A modern role-based job portal frontend application built using React, Redux Toolkit, and Tailwind CSS, supporting User, Recruiter, and Admin roles with separate dashboards and features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**✨ Features** ::
+🔐 Authentication & Authorization:
+   User & Recruiter registration and login,
+   Role-based access control (User / Recruiter / Admin),
+   Authentication state managed using Redux Toolkit,
+   Persistent login using localStorage.
 
-Currently, two official plugins are available:
+**👤 User Features** ::
+  Browse job listings,
+  Search jobs by title,
+  View job details,
+  Personalized profile page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🧑‍💼 Recruiter Features** ::
+   Recruiter dashboard,
+   Post new jobs,
+   Edit & delete own job postings,
+   Job statistics view,
+   Personalized welcome message.
 
-## React Compiler
+ **🛠 Admin Features** ::
+   Admin dashboard.
+   View all jobs,
+   Edit or delete any job,
+   Analytics cards (jobs, users, recruiters),
+   Centralized job management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ **🧰 Tech Stack** ::
+   Frontend: React (Vite),
+   State Management: Redux Toolkit,
+   Routing: React Router DOM,
+   Styling: Tailwind CSS,
+   Persistence: localStorage,
+   Version Control: Git & GitHub.
 
-## Expanding the ESLint configuration
+ **📁 Project Structure** ::
+ src/
+│── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│
+│── pages/
+│   ├── auth/
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   ├── user/
+│   │   └── Jobs.jsx
+│   ├── recruiter/
+│   │   └── RecruiterDashboard.jsx
+│   ├── admin/
+│   │   └── AdminDashboard.jsx
+│   └── profile/
+│       └── Profile.jsx
+│
+│── redux/
+│   ├── authSlice.js
+│   └── jobSlice.js
+│
+│── App.jsx
+│── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**▶️ Getting Started** ::
+  1️⃣ Clone the repository: 
+      git clone https://github.com/adarshanit1125/job-portal.git
+  ,2️⃣ Install dependencies:
+      npm install ,
+  3️⃣ Run the app:
+      npm run dev
+
+**📸 Screenshots** ::       
+  <img width="1732" height="906" alt="image" src="https://github.com/user-attachments/assets/3abee704-a4b3-46e6-8893-4410e0d3c445" />
+  <img width="1892" height="872" alt="image" src="https://github.com/user-attachments/assets/0f091ad3-7085-484d-a7d1-8b1c8e6f46f8" />
+  <img width="1767" height="927" alt="image" src="https://github.com/user-attachments/assets/c3c06411-d3da-4c83-bf15-83aba19573d3" />
+
+**🚀 Future Improvements** ::
+   Backend integration (Node.js / Express),
+   Real authentication with JWT,
+   Job application workflow,
+   Admin user management,
+   Email-based password reset,
+   Avatar upload.  
+
+  ** ⭐ If you like this project, give it a star on GitHub!**
+
+
+
