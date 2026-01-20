@@ -1,8 +1,9 @@
 ##🚀 Role-Based Job Portal (React)**::
 A modern role-based job portal frontend application built using React, Redux Toolkit, and Tailwind CSS, supporting User, Recruiter and Admin roles with separate dashboards and features.
 
-##✨ Features** ::
-**🔐Authentication & Authorization:
+##✨ Features ::
+
+  ###🔐Authentication & Authorization:
    - User & Recruiter registration and login
    - Role-based access control (User / Recruiter / Admin)
    - Authentication state managed using Redux Toolkit
