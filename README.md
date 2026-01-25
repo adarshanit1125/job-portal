@@ -69,6 +69,7 @@ src/
 ├── App.jsx
 └── main.jsx 
 ```
+##Link: https://jobprtal.netlify.app/ 
 
 ##▶️ Getting Started** ::
   - Clone the repository: 
@@ -76,7 +77,7 @@ src/
   - Install dependencies: npm install 
   - Run the app:  npm run dev
 
-##📸 Screenshots** ::       
+##📸 Screenshots** ::      
   <img width="1732" height="906" alt="image" src="https://github.com/user-attachments/assets/3abee704-a4b3-46e6-8893-4410e0d3c445" />
   <img width="1892" height="872" alt="image" src="https://github.com/user-attachments/assets/0f091ad3-7085-484d-a7d1-8b1c8e6f46f8" />
   <img width="1767" height="927" alt="image" src="https://github.com/user-attachments/assets/c3c06411-d3da-4c83-bf15-83aba19573d3" />
